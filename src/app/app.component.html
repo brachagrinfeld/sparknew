@@ -1,0 +1,17 @@
+<p-progressBar class="mainProgress" mode="indeterminate" *ngIf="isLoading$ | async"></p-progressBar>
+<div class="main p-input-filled">
+
+    <router-outlet></router-outlet>
+    <div *ngIf="false">
+        <p-blockUI [blocked]="true" [target]="blockUIElement"></p-blockUI>
+        <p-progressSpinner class="progress"></p-progressSpinner>
+    </div>
+
+    <custom-message></custom-message>
+    
+    <app-blockable-div #dd>
+    </app-blockable-div>
+</div>
+<p style="position: fixed;
+bottom: 0;
+left: 10px;">גרסה 1.0</p>

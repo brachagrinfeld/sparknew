@@ -1,0 +1,36 @@
+{
+  "GENERAL": {
+    "SHOW": "הצג",
+    "ERROR": "אופס...",
+    "APPROVAL": "הצלחנו!",
+    "MESSAGE": "הודעה",
+    "SAVE": "שמור",
+    "DELETE": "מחק",
+    "OK": "אישור",
+    "CANCEL": "ביטול",
+    "CONTINUE": "המשך",
+    "TOTAL": "סך הכל",
+    "YES": "כן",
+    "NO": "לא",
+    "MESSAGES": {
+      "NOT_DEVELOPED_YET": "לא פותח עדין",
+      "DATA_SAVED_SUCCESSFULLY": "נתונים נשמרו בהצלחה"
+    }
+  },
+  "ERRORS": {
+    "REQUIRED": "הינו שדה חובה"
+  },
+  
+  "TOP_MENU": {
+    "PERSONAL_DETAILS": "פרטים אישיים"
+  },
+ 
+  "ENUMS": {
+    "Validators": {
+      "OnlyNumbers": "נא הזן רק מספרים",
+      "OnlyLetters": "נא הזן רק אותיות",
+      "PhoneNumber": "נא הזן מספר טלפון תקין",
+      "ValidPass": "אותיות באנגלית וספרות בלבד לפחות 8 תווים"
+    }
+  }
+}
